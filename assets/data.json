@@ -1,0 +1,328 @@
+{
+  "name": "Chimoka Café",
+  "infog": {
+    "sobre_nosotros": "Chimoka Café es un espacio creado para disfrutar, compartir y saborear. Nacimos en San Juan de Lurigancho con una propuesta que combina café de especialidad, postres artesanales y sándwiches preparados con ingredientes frescos y locales. Más que una cafetería, somos un punto de encuentro para amigos, familias y amantes del buen gusto. Cada detalle —desde la música hasta la presentación de nuestros platos— está pensado para que vivas una experiencia cálida, deliciosa y memorable.",
+    "mision": "Brindar experiencias gastronómicas únicas a través de café de especialidad, postres caseros y sándwiches creativos, en un ambiente acogedor que promueve la conexión entre personas y la cultura local.",
+    "vision": "Ser reconocidos como una de las cafeterías más queridas de Lima por nuestra calidad, hospitalidad y compromiso con la comunidad, expandiendo la cultura del café y el brunch a nuevos rincones del país.",
+    "frases": [
+      "El café une, el postre alegra y el sándwich completa.",
+      "Aquí no solo servimos comida, servimos momentos.",
+      "Cada taza, cada bocado, cuenta una historia.",
+      "Donde el brunch se convierte en ritual.",
+      "Chimoka: sabor, calidez y comunidad."
+    ]
+  },
+  "locations": [
+    "Calle Ayar Manco 360, Urb. Zárate, San Juan de Lurigancho, Lima"
+  ],
+  "contact": {
+    "phone": "907 298 740",
+    "email": "industrias@lbk.pe",
+    "instagram": "https://www.instagram.com/chimokacafe",
+    "facebook": "https://www.facebook.com/chimokacafe",
+    "whatsapp": "907 298 740",
+    "tiktok": "@chimokacafe"
+  },
+  "hours": "Lunes a domingo, de 8:00 a.m. a 10:30 p.m.",
+  "menu": {
+    "Rappi": {
+      "Bebidas Calientes": [
+        {
+          "nombre": "Chocolate Caliente",
+          "precio": 10.00,
+          "descripcion": "Bebida caliente de chocolate artesanal, cremosa y reconfortante."
+        },
+        {
+          "nombre": "Café Capuchino",
+          "precio": 9.00,
+          "descripcion": "Café espresso con leche vaporizada y espuma cremosa."
+        },
+        {
+          "nombre": "Café Americano",
+          "precio": 8.00,
+          "descripcion": "Café espresso alargado con agua caliente, suave y aromático."
+        },
+        {
+          "nombre": "Matcha Latte",
+          "precio": 12.00,
+          "descripcion": "Té verde matcha con leche vaporizada, antioxidante y energizante."
+        }
+      ],
+      "Bebidas Frías": [
+        {
+          "nombre": "Cold Brew de Frutos Rojos",
+          "precio": 13.00,
+          "descripcion": "Café frío infusionado con frutos rojos, refrescante y afrutado."
+        },
+        {
+          "nombre": "Iced Matcha Latte",
+          "precio": 13.00,
+          "descripcion": "Matcha con leche y hielo, ideal para días calurosos."
+        },
+        {
+          "nombre": "Iced Americano",
+          "precio": 10.00,
+          "descripcion": "Café americano servido con hielo, suave y refrescante."
+        },
+        {
+          "nombre": "Iced Latte",
+          "precio": 12.00,
+          "descripcion": "Café espresso con leche y hielo, cremoso y frío."
+        },
+        {
+          "nombre": "Chai Tea",
+          "precio": 11.00,
+          "descripcion": "Té negro especiado con leche y hielo, sabor exótico."
+        },
+        {
+          "nombre": "Raspberry Tea",
+          "precio": 10.00,
+          "descripcion": "Té frío de frambuesa, dulce y refrescante."
+        },
+        {
+          "nombre": "Iced Mocha",
+          "precio": 13.00,
+          "descripcion": "Café, chocolate y leche con hielo, delicioso y energético."
+        },
+        {
+          "nombre": "Iced Caramel",
+          "precio": 13.00,
+          "descripcion": "Café frío con leche y caramelo, dulce y cremoso."
+        },
+        {
+          "nombre": "Frappe Oreo",
+          "precio": 14.00,
+          "descripcion": "Bebida frappé con galletas Oreo, cremosa y divertida."
+        },
+        {
+          "nombre": "Frappe Caramel",
+          "precio": 14.00,
+          "descripcion": "Frappe de café con caramelo, frío y dulce."
+        },
+        {
+          "nombre": "Frappe Mocha",
+          "precio": 14.00,
+          "descripcion": "Frappe de café y chocolate, refrescante y energético."
+        },
+        {
+          "nombre": "Frappe Capu",
+          "precio": 14.00,
+          "descripcion": "Frappe de café estilo capuchino, cremoso y frío."
+        },
+        {
+          "nombre": "Milkshake Fresa",
+          "precio": 13.00,
+          "descripcion": "Batido de leche y fresas naturales, dulce y refrescante."
+        },
+        {
+          "nombre": "Milkshake Oreo",
+          "precio": 13.00,
+          "descripcion": "Batido de leche con galletas Oreo, cremoso y divertido."
+        },
+        {
+          "nombre": "Milkshake Mango",
+          "precio": 13.00,
+          "descripcion": "Batido de leche y mango fresco, tropical y suave."
+        },
+        {
+          "nombre": "Milkshake Chocolate",
+          "precio": 13.00,
+          "descripcion": "Batido de leche y chocolate, clásico y delicioso."
+        }
+      ],
+      "Postres": [
+        {
+          "nombre": "Torta de Zanahoria",
+          "precio": 11.00,
+          "descripcion": "Bizcocho húmedo de zanahoria con frosting de queso crema."
+        },
+        {
+          "nombre": "Crema Volteada",
+          "precio": 10.00,
+          "descripcion": "Postre tradicional peruano tipo flan."
+        },
+        {
+          "nombre": "Torta de Pera",
+          "precio": 11.00,
+          "descripcion": "Bizcocho suave con peras frescas."
+        },
+        {
+          "nombre": "Waffle Clásico",
+          "precio": 9.00,
+          "descripcion": "Waffle tradicional, crujiente por fuera y suave por dentro."
+        },
+        {
+          "nombre": "Waffle Extremo",
+          "precio": 12.00,
+          "descripcion": "Waffle con toppings especiales y salsa de chocolate."
+        },
+        {
+          "nombre": "Tostadas de Palta y Huevo",
+          "precio": 10.00,
+          "descripcion": "Tostadas de pan con palta y huevo cocido."
+        },
+        {
+          "nombre": "Tostón Palta Cherry",
+          "precio": 10.00,
+          "descripcion": "Tostón de plátano con palta y tomates cherry."
+        }
+      ],
+      "Fondos": [
+        {
+          "nombre": "Apanado de Pollo",
+          "precio": 16.00,
+          "descripcion": "Filete de pollo empanizado acompañado de papas."
+        },
+        {
+          "nombre": "Lomo Saltado",
+          "precio": 18.00,
+          "descripcion": "Clásico salteado peruano de lomo, cebolla y tomate."
+        },
+        {
+          "nombre": "Fetuccine Alfredo",
+          "precio": 15.00,
+          "descripcion": "Pasta fetuccine con salsa Alfredo cremosa."
+        },
+        {
+          "nombre": "Fetuccine Huancaína con Lomo",
+          "precio": 17.00,
+          "descripcion": "Fetuccine con salsa huancaína y lomo saltado."
+        },
+        {
+          "nombre": "Chaufa Nikkei",
+          "precio": 16.00,
+          "descripcion": "Arroz chaufa fusión peruano-japonesa."
+        }
+      ],
+      "Saludables": [
+        {
+          "nombre": "Smoothie Bowl",
+          "precio": 15.00,
+          "descripcion": "Bowl de smoothie de frutas con toppings saludables."
+        },
+        {
+          "nombre": "Yogurt Griego Bowl",
+          "precio": 14.00,
+          "descripcion": "Bowl de yogurt griego con frutas y granola."
+        },
+        {
+          "nombre": "Porridge Avena",
+          "precio": 12.00,
+          "descripcion": "Avena cocida con leche, frutas y semillas."
+        },
+        {
+          "nombre": "Ensalada de Frutas",
+          "precio": 10.00,
+          "descripcion": "Variedad de frutas frescas de temporada."
+        },
+        {
+          "nombre": "Queen Salad",
+          "precio": 16.00,
+          "descripcion": "Ensalada con pollo, jamón, queso, lechuga y tomate."
+        },
+        {
+          "nombre": "Tuna Salad",
+          "precio": 15.00,
+          "descripcion": "Ensalada de atún con vegetales frescos."
+        }
+      ],
+     
+      "Otros": [
+        {
+          "nombre": "Hamburguesa Special Double",
+          "precio": 18.00,
+          "descripcion": "Doble carne, queso, vegetales frescos y salsa especial."
+        },
+        {
+          "nombre": "Hamburguesa Clásica",
+          "precio": 15.00,
+          "descripcion": "Carne de res, queso, lechuga, tomate y mayonesa."
+        },
+        {
+          "nombre": "Hamburguesa Bacon Caramel",
+          "precio": 17.00,
+          "descripcion": "Hamburguesa con bacon caramelizado y queso cheddar."
+        },
+        {
+          "nombre": "Hamburguesa Crispy Chicken",
+          "precio": 16.00,
+          "descripcion": "Hamburguesa de pollo crocante con vegetales y salsa."
+        },
+        {
+          "nombre": "Hamburguesa Cheese Burguer",
+          "precio": 16.00,
+          "descripcion": "Hamburguesa de res con doble queso cheddar."
+        },
+        {
+          "nombre": "Hamburguesa Royal",
+          "precio": 17.00,
+          "descripcion": "Hamburguesa con huevo, jamón y queso."
+        },
+        {
+          "nombre": "Alitas BBQ",
+          "precio": 14.00,
+          "descripcion": "Alitas de pollo bañadas en salsa BBQ."
+        },
+        {
+          "nombre": "Alitas Buffalo",
+          "precio": 14.00,
+          "descripcion": "Alitas de pollo con salsa picante estilo Buffalo."
+        },
+        {
+          "nombre": "Alitas Crispy",
+          "precio": 14.00,
+          "descripcion": "Alitas de pollo crocantes y jugosas."
+        },
+        {
+          "nombre": "Alitas Acevichadas",
+          "precio": 15.00,
+          "descripcion": "Alitas de pollo con salsa acevichada peruana."
+        },
+        {
+          "nombre": "Salchipapa Frankfurter",
+          "precio": 12.00,
+          "descripcion": "Papas fritas con salchicha Frankfurter y salsas."
+        },
+        {
+          "nombre": "Salchipapa Royal",
+          "precio": 13.00,
+          "descripcion": "Papas fritas con salchicha, huevo y salsas."
+        },
+        {
+          "nombre": "Club Sandwich",
+          "precio": 14.00,
+          "descripcion": "Sándwich triple con pollo, jamón, queso y vegetales."
+        },
+        {
+          "nombre": "Sandwich Completo",
+          "precio": 13.00,
+          "descripcion": "Sándwich con jamón, queso, lechuga y tomate."
+        },
+        {
+          "nombre": "Sandwich Mixto",
+          "precio": 12.00,
+          "descripcion": "Sándwich de jamón y queso caliente."
+        }
+      ]
+     
+    }
+  },
+  "content": {
+    "hashtags": [
+      "#SJL",
+      "#brunch",
+      "#cafedeespecialidad",
+      "#cafeperuano",
+      "#cafeteriasbonitas",
+      "#chimokacafe",
+      "#coffee",
+      "#coffeelover",
+      "#croissant",
+      "#desayuno",
+      "#empanadas",
+      "#matchalatte",
+      "#sjl",
+      "#tostadasfrancesas"
+    ]
+  }
+}

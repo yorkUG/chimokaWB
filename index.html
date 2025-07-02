@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Chimoka Café - Café de Especialidad & Brunch</title>
+  <meta name="title" content="Chimoka Café - Café de Especialidad & Brunch">
+  <meta name="description"
+    content="Chimoka Café es un espacio creado para disfrutar, compartir y saborear. Café de especialidad, postres artesanales y sándwiches preparados con ingredientes frescos y locales en San Juan de Lurigancho, Lima.">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/custom-property.css">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/tipografia.css">
+  <link rel="stylesheet" href="./assets/css/reutilizables.css">
+  <link rel="stylesheet" href="./assets/css/encabezado.css">
+  <link rel="stylesheet" href="./assets/css/principal.css">
+  <link rel="stylesheet" href="./assets/css/menu.css">
+  <link rel="stylesheet" href="./assets/css/caracteristicas.css">
+  <link rel="stylesheet" href="./assets/css/pie.css">
+  <link rel="stylesheet" href="./assets/css/media-queries.css">
+  <link rel="stylesheet" href="./assets/css/comun.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/footer-bg.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <h3>CHIMOKA</h3>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <h3>CHIMOKA</h3>
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+              <span class="span">Inicio</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">Nosotros</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#event" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">Momentos</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">Menú</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#visitanos" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">Visítanos</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visítanos</p>
+
+          <address class="body-4">
+            Calle Ayar Manco 360, Urb. Zárate, <br>
+            San Juan de Lurigancho, Lima
+          </address>
+
+          <p class="body-4 navbar-text">Abierto: 8:00 am - 10:30 pm</p>
+
+          <a href="mailto:industrias@lbk.pe" class="body-4 sidebar-link">industrias@lbk.pe</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Pedidos por WhatsApp</p>
+
+          <a href="tel:+51907298740" class="body-1 contact-number hover-underline">
+            +51 907 298 740
+          </a>
+        </div>
+
+      </nav>
+
+
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+            <div class="slider-bg">
+              <img src="./assets/images/footer-bg.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+            <p class="label-2 section-subtitle slider-reveal">Bienvenido</p>
+            <h2 class="display-1 hero-title slider-reveal">
+              El café une, el postre <br>
+              alegra y el sándwich completa
+            </h2>
+            <p class="body-2 hero-text slider-reveal">
+              Ven con familia y amigos a sentir la alegría de nuestra comida casera y café de especialidad
+            </p>
+            <a href="#menu" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Ver Nuestro Menú</span>
+              <span class="text text-2" aria-hidden="true">Ver Nuestro Menú</span>
+            </a>
+          </li>
+
+          <!-- Slider 2: Bebidas -->
+          <li class="slider-item" data-hero-slider-item>
+            <div class="slider-bg">
+              <img src="./assets/images/footer-bg.jpg" width="1880" height="950" alt="Bebidas Chimoka" class="img-cover">
+            </div>
+            <p class="label-2 section-subtitle slider-reveal">Bebidas Calientes & Frías</p>
+            <h2 class="display-1 hero-title slider-reveal">
+              Disfruta de nuestras <br>
+              bebidas únicas
+            </h2>
+            <p class="body-2 hero-text slider-reveal">
+              Desde un café americano hasta un frappé refrescante. Elige entre bebidas calientes y frías, preparadas con ingredientes de calidad y mucho cariño.
+            </p>
+            <a href="#menu" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Ver Nuestro Menú</span>
+              <span class="text text-2" aria-hidden="true">Ver Nuestro Menú</span>
+            </a>
+          </li>
+
+          <!-- Slider 3: Postres -->
+          <li class="slider-item" data-hero-slider-item>
+            <div class="slider-bg">
+              <img src="./assets/images/footer-bg.jpg" width="1880" height="950" alt="Postres Chimoka" class="img-cover">
+            </div>
+            <p class="label-2 section-subtitle slider-reveal">Postres Artesanales</p>
+            <h2 class="display-1 hero-title slider-reveal">
+              Dulzura y sabor <br>
+              en cada bocado
+            </h2>
+            <p class="body-2 hero-text slider-reveal">
+              Prueba nuestros postres caseros: tortas, waffles, crema volteada y más. El final perfecto para tu experiencia Chimoka.
+            </p>
+            <a href="#menu" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Ver Nuestro Menú</span>
+              <span class="text text-2" aria-hidden="true">Ver Nuestro Menú</span>
+            </a>
+          </li>
+
+          <!-- Slider 4: Saludable -->
+          <li class="slider-item" data-hero-slider-item>
+            <div class="slider-bg">
+              <img src="./assets/images/footer-bg.jpg" width="1880" height="950" alt="Opciones Saludables Chimoka" class="img-cover">
+            </div>
+            <p class="label-2 section-subtitle slider-reveal">Opciones Saludables</p>
+            <h2 class="display-1 hero-title slider-reveal">
+              Sano, fresco <br>
+              y delicioso
+            </h2>
+            <p class="body-2 hero-text slider-reveal">
+              Descubre bowls, ensaladas y jugos naturales. Opciones ligeras y nutritivas para todos los gustos.
+            </p>
+            <a href="#menu" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Ver Nuestro Menú</span>
+              <span class="text text-2" aria-hidden="true">Ver Nuestro Menú</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+
+
+      </section>
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Nuestra Historia</p>
+
+            <h2 class="headline-1 section-title">Cada Aroma Cuenta una Historia</h2>
+
+            <p class="section-text">
+              Más que una cafetería, somos un punto de encuentro para amigos, familias y amantes del buen gusto. Cada
+              detalle —desde nuestros inicios en el año 2019, la música hasta la presentación de nuestros platos— está
+              pensado para que vivas una
+              experiencia cálida, deliciosa y memorable. Brindamos experiencias gastronómicas únicas a través de café de
+              especialidad, postres caseros y sándwiches creativos, en un ambiente acogedor que promueve la conexión
+              entre personas y la cultura local.
+            </p>
+
+
+
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/ch.webp" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+
+
+
+          </figure>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/testimonial-bg.jpg')" aria-label="testimonials">
+
+        <div class="container-testi">
+          <div class="container">
+
+            <div class="quote">Misión</div>
+
+            <p class="title-3 testi-text">
+              CHIMOKA CAFÉ tenemos como misión brindar una experiencia única que combine el placer de un buen café con la calidez de un ambiente acogedor. 
+            </p>
+
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+
+
+
+          </div>
+
+          <div class="container">
+
+            <div class="quote">Visión</div>
+
+            <p class="title-3 testi-text">
+              Ser reconocidos como una de las mejores cafeterías y sandwicherías del país, destacando por la calidad de nuestros productos, la calidez de nuestro servicio y un ambiente acogedor que invite a disfrutar momentos únicos y memorables todos los días.
+            </p>
+
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- 
+        - #EVENT
+      -->
+
+      <section class="section event bg-black-10" aria-label="event" id="event">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">Momentos CHIMOKA</p>
+
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <video width="350" height="450" autoplay muted loop playsinline style="object-fit: cover; width: 100%; height: 100%; border-radius: inherit;">
+                    <source src="./assets/videos/tk1.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                  </video>
+                  <time class="publish-date label-2" datetime="2024-01-15">CHI</time>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="card-title title-4 text-center">
+                    .   .   .
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <video width="350" height="450" autoplay muted loop playsinline style="object-fit: cover; width: 100%; height: 100%; border-radius: inherit;">
+                    <source src="./assets/videos/tk2.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                  </video>
+                  <time class="publish-date label-2" datetime="2024-01-08">MO</time>
+                </div>
+
+                <div class="card-content">
+                  <h3 class="card-title title-4 text-center">
+                    .   .   .
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <video width="350" height="450" autoplay muted loop playsinline style="object-fit: cover; width: 100%; height: 100%; border-radius: inherit;">
+                    <source src="./assets/videos/tk3.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                  </video>
+                  <time class="publish-date label-2" datetime="2024-01-03">CA</time>
+                </div>
+
+                <div class="card-content">
+                  <h3 class="card-title title-4 text-center">
+                    .   .   .
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #SPECIAL DISH
+      -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <video width="470" height="450" autoplay muted loop playsinline style="object-fit: cover; width: 100%; height: 100%; border-radius: 20px;">
+            <source src="./assets/videos/tk5.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+          </video>
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Nuevo Producto</p>
+
+            <h2 class="headline-1 section-title">Cheesecake New York</h2>
+
+            <p class="section-text">
+              Disfruta de nuestro Cheesecake estilo New York: cremoso, suave y con una base de galleta crocante. Acompañado de salsa de frutos rojos para un toque fresco y delicioso. ¡Un clásico irresistible para los amantes del buen postre!
+            </p>
+
+            <div class="wrapper">
+              <del class="del body-3">S/ 15.00</del>
+              <span class="span body-1">S/ 10.90</span>
+            </div>
+
+            <a href="https://wa.me/51907298740?text=Hola%2C%20quiero%20pedir%3A%20Cheesecake%20New%20York" target="_blank" rel="noopener" class="btn btn-primary">
+              <span class="text text-1">Pedir</span>
+              <span class="text text-2" aria-hidden="true">Pedir</span>
+            </a>
+
+          </div>
+        </div>
+
+        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+
+        <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2">Pedidos por WhatsApp</p>
+
+          <a style="justify-self: center;" href="tel:+51907298740"
+            class="headline-1 section-title text-center  hover-underline">
+            +51 907 298 740
+          </a>
+
+        </div>
+
+        <ul class="filter-list">
+          <li><button class="filter-btn active text-center"><p class="filter-text">Bebidas Calientes</p></button></li>
+          <li><button class="filter-btn text-center"><p class="filter-text">Bebidas Frías</p></button></li>
+          <li><button class="filter-btn text-center"><p class="filter-text">Postres</p></button></li>
+          <li><button class="filter-btn text-center"><p class="filter-text">Fondos</p></button></li>
+          
+          <li><button class="filter-btn text-center"><p class="filter-text">Saludables</p></button></li>
+          <li><button class="filter-btn text-center"><p class="filter-text">Otros</p></button></li>
+
+        </ul>
+
+        <ul class="grid-list-ca" id="productos-grid">
+          <!-- Los productos se cargarán dinámicamente aquí -->
+        </ul>
+
+      </section>
+
+
+
+
+
+
+
+
+
+
+      <!-- 
+        - #RESERVATION
+      -->
+
+      <section class="reservation" id="visitanos">
+        <div class="container">
+
+          <div class="form reservation-form bg-black-10">
+
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+
+              <h2 class="headline-1 text-center">Visitanos</h2>
+
+
+
+              <div class="map-responsive">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d933.1381558150981!2d-77.00604953017687!3d-12.026859720049528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c58f9e82f963%3A0x5162648e5a393520!2sChimoka%20Caf%C3%A9!5e0!3m2!1ses-419!2spe!4v1751327112142!5m2!1ses-419!2spe"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+              </div>
+
+            </div>
+
+            <div action="" class="form-left">
+
+              <ul class="grid-list">
+
+
+                <li class="feature-item">
+                  <div class="feature-card">
+
+                    <div class="card-icon">
+                      <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                    </div>
+
+                    <h3 class="title-2 card-title">Ubicación</h3>
+
+                    <p class="label-1 card-text"> Calle Ayar Manco 360, Urb. Zárate, <br>
+                      San Juan de Lurigancho, Lima
+                    </p>
+
+                  </div>
+                </li>
+
+                <li class="feature-item">
+                  <div class="feature-card">
+
+                    <div class="card-icon">
+                      <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                    </div>
+
+                    <h3 class="title-2 card-title">Horario</h3>
+
+                    <p class="label-1 card-text"> Lunes a domingo <br>
+                      8:00 am - 10:30 pm
+                    </p>
+
+                  </div>
+                </li>
+
+              </ul>
+
+
+            </div>
+
+
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+    </article>
+  </main>
+
+
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <h3>CHIMOKA</h3>
+          </a>
+
+          <address class="body-4">
+            Calle Ayar Manco 360, Urb. Zárate, San Juan de Lurigancho, Lima
+          </address>
+
+          <a href="mailto:industrias@lbk.pe" class="body-4 contact-link">industrias@lbk.pe</a>
+
+          <a href="tel:+51907298740" class="body-4 contact-link">Pedidos por WhatsApp: +51 907 298 740</a>
+
+          <p class="body-4">
+            Abierto: 8:00 am - 10:30 pm
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <!--      <p class="title-1">Recibe Noticias y Ofertas</p>
+
+          <p class="label-1">
+            Suscríbete y obtén <span class="span">25% de descuento.</span>
+          </p> -->
+
+          <!--    <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Tu email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Suscribirse</span>
+
+              <span class="text text-2" aria-hidden="true">Suscribirse</span>
+            </button>
+          </form>
+ -->
+        </div>
+
+
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="https://www.facebook.com/chimokacafe" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/chimokacafe" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="https://api.whatsapp.com/send?phone=51907298740"
+              class="label-2 footer-link hover-underline">WhatsApp</a>
+          </li>
+
+          <li>
+            <a href="https://www.tiktok.com/@chimokacafe" class="label-2 footer-link hover-underline">TikTok</a>
+          </li>
+
+          <li>
+            <a href="https://www.google.com/maps/search/chimoka+cafe+ubicaciones/@-12.0194927,-77.0087082,15z"
+              class="label-2 footer-link hover-underline">Google Maps</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2025 Chimoka Café. Todos los derechos reservados | Desarrollado con ❤️ x UTPinos
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/menu.js"></script>
+  <script src="./assets/js/videos.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script>
+    // Script para controlar el audio de los videos de eventos y la opacidad visual
+    document.addEventListener('DOMContentLoaded', function () {
+      const eventVideos = document.querySelectorAll('.event-card video');
+      let currentIdx = 0;
+
+      function setActiveVideo(idx, unmuteOnClick = false) {
+        eventVideos.forEach((video, i) => {
+          if (i === idx) {
+            video.style.opacity = '1';
+            // Siempre iniciar silenciado para autoplay
+            video.muted = !unmuteOnClick;
+            video.currentTime = 0;
+            const playPromise = video.play();
+            if (playPromise !== undefined) {
+              playPromise.catch(() => {});
+            }
+          } else {
+            video.style.opacity = '0.5';
+            video.muted = true;
+            video.pause();
+            video.currentTime = 0;
+          }
+        });
+        currentIdx = idx;
+      }
+
+      // Inicialmente solo el primer video se reproduce, siempre silenciado
+      setActiveVideo(0);
+
+      // Al terminar un video, reproducir el siguiente (en bucle, siempre silenciado)
+      eventVideos.forEach((video, idx) => {
+        video.addEventListener('ended', function () {
+          let nextIdx = (idx + 1) % eventVideos.length;
+          setActiveVideo(nextIdx);
+        });
+      });
+
+      // Al hacer click, activar/desactivar audio y opacidad solo en el video clickeado
+      eventVideos.forEach((video, idx) => {
+        video.addEventListener('click', function () {
+          if (currentIdx !== idx) {
+            setActiveVideo(idx, true); // Al hacer click, activar sonido
+          } else {
+            // Si ya es el activo, alternar mute/opacidad
+            if (video.muted) {
+              video.muted = false;
+              video.style.opacity = '1';
+              const playPromise = video.play();
+              if (playPromise !== undefined) {
+                playPromise.catch(() => {});
+              }
+            } else {
+              video.muted = true;
+              video.style.opacity = '0.5';
+            }
+          }
+        });
+      });
+    });
+  </script>
+
+</body>
+
+</html>

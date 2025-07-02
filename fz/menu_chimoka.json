@@ -1,0 +1,439 @@
+[
+  {
+    "categoria": "Bebidas Frías",
+    "productos": [
+      {
+        "nombre": "Cold Brew de Frutos Rojos",
+        "descripcion": "Cold brew de 24 horas con frutos rojos y\n                            gaseosa blanca",
+        "precio": "S/ 15.90",
+        "imagen": "./assets/images/productos/bebidas-frias/cold-brew-frutos-rojos.png"
+      },
+      {
+        "nombre": "Iced Matcha Latte",
+        "descripcion": "Bebida a basa de matcha y leche fría.",
+        "precio": "S/ 15.90",
+        "imagen": "./assets/images/productos/bebidas-frias/iced-matcha-latte.png"
+      },
+      {
+        "nombre": "Iced Americano",
+        "descripcion": "12oz de café americano con hielo.",
+        "precio": "S/ 9.90",
+        "imagen": "./assets/images/productos/bebidas-frias/iced-americano.png"
+      },
+      {
+        "nombre": "Iced Latte",
+        "descripcion": "12oz de bebida a base de espresso, leche\n                            y hielo.",
+        "precio": "S/ 11.90",
+        "imagen": "./assets/images/productos/bebidas-frias/iced-latte.png"
+      },
+      {
+        "nombre": "Chai Tea",
+        "descripcion": "Bebida de 12 oz a base té de chai y cubos\n                            de hielo.",
+        "precio": "S/ 12.90",
+        "imagen": "./assets/images/productos/bebidas-frias/chai-tea.png"
+      },
+      {
+        "nombre": "Raspberry Tea",
+        "descripcion": "Bebida de 12 oz a base de té de frambuesa\n                            y cubos de hielo.",
+        "precio": "S/ 12.90",
+        "imagen": "./assets/images/productos/bebidas-frias/raspberry-tea.png"
+      },
+      {
+        "nombre": "Iced Mocha",
+        "descripcion": "12Oz de bebida a base de espresso,\n                            chocolate, hielo y leche.",
+        "precio": "S/ 13.90",
+        "imagen": "./assets/images/productos/bebidas-frias/iced-mocha.png"
+      },
+      {
+        "nombre": "Iced Caramel",
+        "descripcion": "Hielo, café expreso, leche y salsa de\n                            caramelo.",
+        "precio": "S/ 13.90",
+        "imagen": "./assets/images/productos/bebidas-frias/iced-caramel.png"
+      }
+    ]
+  },
+  {
+    "categoria": "Tostones",
+    "productos": [
+      {
+        "nombre": "Tostadas de Palta y Huevo",
+        "descripcion": "Pan campesino de masa madre acompañado de\n                            palta, huevo y germinados.",
+        "precio": "S/ 19.90",
+        "imagen": "./assets/images/productos/tostones/tostadas-palta-huevo.png"
+      },
+      {
+        "nombre": "Tostón Palta Cherry",
+        "descripcion": "Pan campesino de masa madre con palta,\n                            tomate cherry, queso ricotta, germinado y reducción balsámica.",
+        "precio": "S/ 19.90",
+        "imagen": "./assets/images/productos/tostones/toston-palta-cherry.png"
+      }
+    ]
+  },
+  {
+    "categoria": "Saludables",
+    "productos": [
+      {
+        "nombre": "Smoothie Bowl",
+        "descripcion": "Escoge la base frutos de bosque (fresa,\n                            plátano y arándanos) o tropical (mango y plátano) con toppings de frutas de la estación.",
+        "precio": "S/ 18.90",
+        "imagen": "./assets/images/productos/saludables/smoothie-bowl.png"
+      },
+      {
+        "nombre": "Yogurt Griego Bowl",
+        "descripcion": "Yogurt griego con granola, fresa,\n                            arándanos y maple.",
+        "precio": "S/ 18.90",
+        "imagen": "./assets/images/productos/saludables/yogurt-griego-bowl.png"
+      },
+      {
+        "nombre": "Porridge de Avena",
+        "descripcion": "Base caliente de avena con chia, maple y\n                            leche, acompañado con plátano, fresa, arándanos, granola y maple. .",
+        "precio": "S/ 18.90",
+        "imagen": "./assets/images/productos/saludables/porridge-avena.png"
+      },
+      {
+        "nombre": "Ensalada de Frutas",
+        "descripcion": "Frutas de la estación acompañado de coco\n                            rallado, semillas de calabaza, chia, granola y miel de abeja.",
+        "precio": "S/ 18.90",
+        "imagen": "./assets/images/productos/saludables/ensalada-frutas.png"
+      },
+      {
+        "nombre": "Queen Salad",
+        "descripcion": "Lechuga, pimientos dorados, palta, col,\n                            pepino, chips de wantan y apanado de pollo.",
+        "precio": "S/ 28.90",
+        "imagen": "./assets/images/productos/saludables/queen-salad.png"
+      },
+      {
+        "nombre": "Tuna Salad",
+        "descripcion": "Lechuga, tomate, pepino, col morada,\n                            palta, zanahoria, huevo duro y atún en trozos.",
+        "precio": "S/ 28.90",
+        "imagen": "./assets/images/productos/saludables/tuna-salad.png"
+      },
+      {
+        "nombre": "Fresh Salad",
+        "descripcion": "Lechuga, queso fresco, palta, tomate,\n                            huevo duro, tocino y filete de pollo en salsa bbq.",
+        "precio": "S/ 28.90",
+        "imagen": "./assets/images/productos/saludables/fresh-salad.png"
+      }
+    ]
+  },
+  {
+    "categoria": "Jugos y Frozen",
+    "productos": [
+      {
+        "nombre": "Frozen de Fruta",
+        "descripcion": "Frozen de tu fruta favorita.",
+        "precio": "S/ 12.90",
+        "imagen": "./assets/images/productos/jugos-frozen/frozen-fruta.png"
+      },
+      {
+        "nombre": "Jugo de 1 Fruta",
+        "descripcion": "Elige entre jugos de: maracuyá, papaya,\n                            mango o fresa.",
+        "precio": "S/ 10.90",
+        "imagen": "./assets/images/productos/jugos-frozen/jugo-1-fruta.png"
+      },
+      {
+        "nombre": "Jugo de 2 Frutas",
+        "descripcion": "Combina sabores entre: fresa, plátano,\n                            papaya o mango.",
+        "precio": "S/ 11.90",
+        "imagen": "./assets/images/productos/jugos-frozen/jugo-2-frutas.png"
+      }
+    ]
+  },
+  {
+    "categoria": "Waffle",
+    "productos": [
+      {
+        "nombre": "Waffle Clásico",
+        "descripcion": "Waffle completo con 1 acompañamiento, 2\n                            frutas y 1 jalea a elección.",
+        "precio": "S/ 20.90",
+        "imagen": "./assets/images/productos/waffle/waffle-clasico.png"
+      },
+      {
+        "nombre": "Waffle Extremo",
+        "descripcion": "Waffle completo con 1 acompañamiento, 3\n                            frutas, 2 toppings y 1 jalea a elección.",
+        "precio": "S/ 24.90",
+        "imagen": "./assets/images/productos/waffle/waffle-extremo.png"
+      }
+    ]
+  },
+  {
+    "categoria": "Sandwichs",
+    "productos": [
+      {
+        "nombre": "Club Sandwich( para 2)",
+        "descripcion": "Pollo, jamón, queso, tocino, huevo,\n                            lechuga, tomate, palta en pan blanco acompañado de papas fritas.",
+        "precio": "S/ 36.90",
+        "imagen": "./assets/images/productos/sandwichs/club-sandwich.png"
+      },
+      {
+        "nombre": "S. Pollito Mix",
+        "descripcion": "Sandwich en pan blanco con pollo\n                            deshilachado en salsa tártara acompañado de papitas chips.",
+        "precio": "S/ 18.90",
+        "imagen": "./assets/images/productos/sandwichs/s-pollito-mix.png"
+      },
+      {
+        "nombre": "Sanwich Completo",
+        "descripcion": "Pan multigrano, mantequilla, filete de\n                            pollo, jamón grillado, queso y huevo.",
+        "precio": "S/ 20.90",
+        "imagen": "./assets/images/productos/sandwichs/sandwich-completo.png"
+      },
+      {
+        "nombre": "Sandwich Mixto",
+        "descripcion": "Pan multigrano, mantequilla, queso y\n                            jamón grillado.",
+        "precio": "S/ 14.90",
+        "imagen": "./assets/images/productos/sandwichs/sandwich-mixto.png"
+      }
+    ]
+  },
+  {
+    "categoria": "Fondos",
+    "productos": [
+      {
+        "nombre": "Apanado de Pollo",
+        "descripcion": "Pollo apanado, papas fritas, ensalada y\n                            aliño de la casa.",
+        "precio": "S/ 27.90",
+        "imagen": "./assets/images/productos/fondos/apanado-pollo.png"
+      },
+      {
+        "nombre": "Lomo Saltado",
+        "descripcion": "Lomo saltado con lomo fino, verduras\n                            salteadas, arroz y papas fritas de acompañamiento. incluye bebida.",
+        "precio": "S/ 47.90",
+        "imagen": "./assets/images/productos/fondos/lomo-saltado.png"
+      },
+      {
+        "nombre": "Fetuccine a Lo Alfredo",
+        "descripcion": "Fetuccini en salsa alfredo con jamón.",
+        "precio": "S/ 33.90",
+        "imagen": "./assets/images/productos/fondos/fetuccine-alfredo.png"
+      },
+      {
+        "nombre": "Fetuccine a la Huancaina con Lomo",
+        "descripcion": "Fetuccine a la huancaina con lomo saltado\n                            y verduras salteadas.",
+        "precio": "S/ 48.90",
+        "imagen": "./assets/images/productos/fondos/fetuccine-huancaina-lomo.png"
+      },
+      {
+        "nombre": "Chaufa Nikkei",
+        "descripcion": "Arroz chaufa de pollo con influencia\n                            peruano japonesa.",
+        "precio": "S/ 29.90",
+        "imagen": "./assets/images/productos/fondos/chaufa-nikkei.png"
+      }
+    ]
+  },
+  {
+    "categoria": "Fritos",
+    "productos": [
+      {
+        "nombre": "Alitas Bbq",
+        "descripcion": "6 Unidades de alitas acompañadas con\n                            papas fritas.",
+        "precio": "S/ 25.90",
+        "imagen": "./assets/images/productos/fritos/alitas-bbq.png"
+      },
+      {
+        "nombre": "Salchipapa Royal",
+        "descripcion": "Papas fritas, hot dog frankfurter, doble\n                            queso y huevo.",
+        "precio": "S/ 23.90",
+        "imagen": "./assets/images/productos/fritos/salchipapa-royal.png"
+      },
+      {
+        "nombre": "Alitas Buffalo",
+        "descripcion": "6 Unidades de alitas acompañadas con\n                            papas fritas.",
+        "precio": "S/ 25.90",
+        "imagen": "./assets/images/productos/fritos/alitas-buffalo.png"
+      },
+      {
+        "nombre": "Salchipapa Frankfurter",
+        "descripcion": "Papas fritas acompañadas de hot dog\n                            frankfurter.",
+        "precio": "S/ 19.90",
+        "imagen": "./assets/images/productos/fritos/salchipapa-frankfurter.png"
+      },
+      {
+        "nombre": "Alitas Crispy",
+        "descripcion": "6 Unidades de alitas tipo broster\n                            acompañadas con papas fritas.",
+        "precio": "S/ 25.90",
+        "imagen": "./assets/images/productos/fritos/alitas-crispy.png"
+      },
+      {
+        "nombre": "Alitas Acevichadas",
+        "descripcion": "6 Unidades de alitas acompañadas con\n                            papas fritas.",
+        "precio": "S/ 25.90",
+        "imagen": "./assets/images/productos/fritos/alitas-acevichadas.png"
+      },
+      {
+        "nombre": "Alitas Bbq Picante",
+        "descripcion": "6 Unidades de alitas acompañadas con\n                            papas fritas.",
+        "precio": "S/ 25.90",
+        "imagen": "./assets/images/productos/fritos/alitas-bbq-picante.png"
+      }
+    ]
+  },
+  {
+    "categoria": "Postres",
+    "productos": [
+      {
+        "nombre": "Torta de Zanahoria (carrot Cake)",
+        "descripcion": "Bizcocho húmedo y suave de zanahoria con\n                            pecanas, cubierto y relleno de frosting de queso crema con canela.",
+        "precio": "S/ 14.90",
+        "imagen": "./assets/images/productos/postres/torta-zanahoria.png"
+      },
+      {
+        "nombre": "Torta de Pera",
+        "descripcion": "Bizcocho suave y húmedo de pera, relleno\n                            y cubierto de frosting de queso crema, crumble de vainilla y acompañado de salsa\n                            butterscotch.",
+        "precio": "S/ 15.90",
+        "imagen": "./assets/images/productos/postres/torta-pera.png"
+      },
+      {
+        "nombre": "Torta de Chocolate con Mousse Lúcuma",
+        "descripcion": "Bizcocho suave y húmedo de chocolate\n                            relleno de mousse de lúcuma artesanal.",
+        "precio": "S/ 14.90",
+        "imagen": "./assets/images/productos/postres/torta-chocolate-mousse-lucuma.png"
+      },
+      {
+        "nombre": "Crema Volteada",
+        "descripcion": "Suave y cremoso.",
+        "precio": "S/ 14.90",
+        "imagen": "./assets/images/productos/postres/crema-volteada.png"
+      }
+    ]
+  },
+  {
+    "categoria": "Bebidas Calientes",
+    "productos": [
+      {
+        "nombre": "Chocolate Caliente",
+        "descripcion": "100% Cacao de tingo maría y leche\n                            cremosa.",
+        "precio": "S/ 10.90",
+        "imagen": "./assets/images/productos/bebidas-calientes/chocolate-caliente.png"
+      },
+      {
+        "nombre": "Mocachino 9oz",
+        "descripcion": "Capuccino con salsa de chocolate.",
+        "precio": "S/ 13.90",
+        "imagen": "./assets/images/productos/bebidas-calientes/mocachino.png"
+      },
+      {
+        "nombre": "Caramel Capuchino",
+        "descripcion": "Capuchino con salsa de caramelo.",
+        "precio": "S/ 13.90",
+        "imagen": "./assets/images/productos/bebidas-calientes/caramel-capuchino.png"
+      },
+      {
+        "nombre": "Café Capuchino 9oz",
+        "descripcion": "Café a base de espresso con leche\n                            cremosa.",
+        "precio": "S/ 10.90",
+        "imagen": "./assets/images/productos/bebidas-calientes/cafe-capuchino.png"
+      },
+      {
+        "nombre": "Café Americano 9oz",
+        "descripcion": "Clásico americano a base de espresso y\n                            agua.",
+        "precio": "S/ 9.90",
+        "imagen": "./assets/images/productos/bebidas-calientes/cafe-americano.png"
+      },
+      {
+        "nombre": "Matcha Latte 9Oz",
+        "descripcion": "Polvo de matcha (hojas de té verde) y\n                            leche.",
+        "precio": "S/ 13.90",
+        "imagen": "./assets/images/productos/bebidas-calientes/matcha-latte.png"
+      }
+    ]
+  },
+  {
+    "categoria": "Hamburguesas",
+    "productos": [
+      {
+        "nombre": "Hamburguesa Special Double",
+        "descripcion": "Doble hamburguesa de 120gr, doble queso,\n                            tocino, pickles, lechuga, tomate, cebolla, salsa chimoka, pan y papas fritas.",
+        "precio": "S/ 32.90",
+        "imagen": "./assets/images/productos/hamburguesas/hamburguesa-special-double.png"
+      },
+      {
+        "nombre": "Hamburguesa Clásica",
+        "descripcion": "120Gr de carne artesanal, lechuga,\n                            tomate, cebolla, acompañado de pan brioche y papas fritas.",
+        "precio": "S/ 20.90",
+        "imagen": "./assets/images/productos/hamburguesas/hamburguesa-clasica.png"
+      },
+      {
+        "nombre": "Hamburguesa Bacon Caramel",
+        "descripcion": "120gr de carne artesanal, lechuga,\n                            tomate, cebolla caramelizada, tocino ahumado, queso cheddar, pan y papas fritas.",
+        "precio": "S/ 26.90",
+        "imagen": "./assets/images/productos/hamburguesas/hamburguesa-bacon-caramel.png"
+      },
+      {
+        "nombre": "Hamburguesa Crispy Chicken",
+        "descripcion": "Pechuga de pollo, lechuga, tomate, queso\n                            cheddar, cole slaw, salsa bbq, salsa chimoka, pan y papas fritas..",
+        "precio": "S/ 27.90",
+        "imagen": "./assets/images/productos/hamburguesas/hamburguesa-crispy-chicken.png"
+      },
+      {
+        "nombre": "Hamburguesa Cheese Burguer",
+        "descripcion": "120gr de carne artesanal, doble queso\n                            cheddar, pickles, lechuga, tomate, cebolla, salsa chimoka, pan y papas fritas..",
+        "precio": "S/ 24.90",
+        "imagen": "./assets/images/productos/hamburguesas/hamburguesa-cheese-burger.png"
+      },
+      {
+        "nombre": "Hamburguesa Royal",
+        "descripcion": "120Gr de carne artesanal, huevo, jamón,\n                            queso edam, lechuga, tomate, cebolla, salsa chimoka, pan brioche y papas fritas.",
+        "precio": "S/ 25.90",
+        "imagen": "./assets/images/productos/hamburguesas/hamburguesa-royal.png"
+      }
+    ]
+  },
+  {
+    "categoria": "Frappé",
+    "productos": [
+      {
+        "nombre": "Frappé de Oreo",
+        "descripcion": "16 oz de frappé con café, oreo, chocolate\n                            y crema chantilly.",
+        "precio": "S/ 17.90",
+        "imagen": "./assets/images/productos/frappe/frappe-oreo.png"
+      },
+      {
+        "nombre": "Frappé Capu",
+        "descripcion": "16 oz de frappé a base de café, leche y\n                            crema de chantilly.",
+        "precio": "S/ 16.90",
+        "imagen": "./assets/images/productos/frappe/frappe-capu.png"
+      },
+      {
+        "nombre": "Frappé Caramel",
+        "descripcion": "16 oz de frappé a base de café, leche,\n                            caramelo y sirope de caramelo.",
+        "precio": "S/ 17.90",
+        "imagen": "./assets/images/productos/frappe/frappe-caramel.png"
+      },
+      {
+        "nombre": "Frappé Mocha",
+        "descripcion": "16 oz de frappé a base de café,\n                            chocolate, leche, sirope de chocolate y crema de chantilly.",
+        "precio": "S/ 17.90",
+        "imagen": "./assets/images/productos/frappe/frappe-mocha.png"
+      }
+    ]
+  },
+  {
+    "categoria": "Milkshakes",
+    "productos": [
+      {
+        "nombre": "Milkshake de Fresa",
+        "descripcion": "16 oz a base de fresa, leche, helado de\n                            vainilla y hielo.",
+        "precio": "S/ 17.90",
+        "imagen": "./assets/images/productos/milkshakes/milkshake-fresa.png"
+      },
+      {
+        "nombre": "Milkshake de Oreo",
+        "descripcion": "16 oz a base de oreo, leche, helado de\n                            vainilla y hielo.",
+        "precio": "S/ 17.90",
+        "imagen": "./assets/images/productos/milkshakes/milkshake-oreo.png"
+      },
+      {
+        "nombre": "Milkshake de Mango",
+        "descripcion": "16 oz a base de mango, leche, helado de\n                            vainilla y hielo.",
+        "precio": "S/ 17.90",
+        "imagen": "./assets/images/productos/milkshakes/milkshake-mango.png"
+      },
+      {
+        "nombre": "Milkshake de Chocolate",
+        "descripcion": "16 oz a base de chocolate, leche, helado\n                            de chocolate y hielo.",
+        "precio": "S/ 17.90",
+        "imagen": "./assets/images/productos/milkshakes/milkshake-chocolate.png"
+      }
+    ]
+  }
+]
